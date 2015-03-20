@@ -3,11 +3,13 @@
 # as way to cache potentially time consuming computations.  This take
 # advantage of the scoping rules of R language and how they can 
 # be manipulated to preserve state inside of an R object.
-
+#
+# functions usded :- 
 # set function set the matrix
 # get function get the input matrix 
 # setmatrix compute the inverse of matrix and using "solve" and 
-# getmatrix get the inverse matrix form cache   
+# getmatrix get the inverse matrix form cache  
+#
 # cachesSolve  check if inverse  exits in cache. If it is not NULL it use
 # it otherwise compute the inverse matrix
 
